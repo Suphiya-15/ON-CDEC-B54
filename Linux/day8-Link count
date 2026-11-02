@@ -1,0 +1,45 @@
+                       Link count
+
+**Types of files in linux:
+1. Regular/Normal file: (-)
+2. Directory file: (d)
+3. Special files:
+--> Link file: (l)
+--> Block files: (b)
+--> Character files:(c)
+--> Named pipe files: (p)
+--> Socket files: (s) 
+syntax:
+file <file_name>
+--> to check file type
+file demo
+
+
+Link count:
+--> Link count represents the numbers of links pointing to a perticular file.
+
+**Inode:
+--> stores file metadata such as permission, owner, size, timestamp and other information.
+syntax:
+ls -li <file_name>
+--> to check inode of a file
+ls -li demo
+
+Types of links:
+1. hard link
+2. soft link
+
+1. Hard Link:
+--> A hard link is another filename that points to the same data / inode.
+syntax:  ln <oginal_file> <link_name>
+eg:  ln demo hardlink
+--> Both original file and links have same inode number.
+--> deleting link does not affect original file or other links
+--> deleting or renaming original file does not affect on other links.
+
+2. Soft Link: 
+--> A soft link is a shortcut that points to another file.
+syntax: ln -s <original_file> <link_name>
+eg: ln -s demo softlink
+--> Different inode numbers
+--> the soft link becomes dangling link (broken link) because its target file is no longer exists.
