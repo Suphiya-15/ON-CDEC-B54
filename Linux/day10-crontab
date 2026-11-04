@@ -1,0 +1,22 @@
+                            Crontab
+
+--> Cron is a linux service that automatically executes commands or 
+scripts at a perticular time.
+
+--> insted of executing commands manually you can use cron to automate task.
+
+syntax:
+
+*  *  *  *  *  command
+1  2  3  4  5   
+
+1 : Minute (0 - 59)
+2 : Hour (0 -23)
+3 : Day of Month (1 - 31)
+4 : Month (1 - 12)
+5 : Day of Week (0 - 7)
+
+30  10  *  *  *  mkdir demo
+
+15 *  *  *  *  touch demo.txt
+
