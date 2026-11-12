@@ -1,0 +1,28 @@
+                             Find command
+
+--> to find/search file use find command
+syntax:
+       find  <location>  <options>  <expression>
+
+here,
+<location>: where to search file (/ means whole system or /etc)
+<options>: filtering data
+<expression>: actions
+
+options:
+1. -name : by name
+2. -size : by size
+16M +16M -16M
+3. -perm: by permission
+4. -mtime: by modification time
+5. -user
+6. -group
+7. -uid
+8. -gid
+
+condition
+n = exact time
++n = older than n
+-n = newer than n 
+
+
