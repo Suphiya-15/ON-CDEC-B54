@@ -1,0 +1,50 @@
+                           Process Management
+
+--> Process is a program that is currently running in the system
+--> Process is a program in execution
+--> Process is a simply running instance of a program
+
+*Types of process:
+1. Foreground process
+2. Background Process
+3. Deamon Process
+
+1. Foreground process:
+--> A foreground process is a process that runs directly in your terminal and
+occupies your terminal until it finishes.
+(terminal is a place where we type commands and see their output
+Shell accepts commands from user, interprets them and ask the OS to execute them)
+
+2. Background Process:
+--> Background processs runs without occupying your terminal.
+--> use the & symbol to start a process in the background.
+
+jobs command:
+--> The jobs command in Linux is used to display the status of jobs running in the current shell session. It is mainly used for managing background processes.
+syntax: jobs
+
+ps command:
+--> The ps command in Linux stands for Process Status. It is used to display information about currently running processes in the system.
+--> System administrators use ps to monitor processes, check PIDs, identify resource-consuming processes, and troubleshoot applications.
+syntax: ps
+-->shows current terminal processes
+
+ii] ps -ef
+--> Shows all processes in full format
+
+iii] ps aux
+--> Shows detailed information about all processes
+
+top command:
+--> The top command in Linux is used to monitor running processes and system resource utilization in real time.
+--> It displays CPU usage, memory usage, load average, running processes, and other system information.
+syntax: top
+
+kill commmand:
+--> The kill command in Linux is used to terminate a process by sending a signal to its Process ID (PID).
+--> Linux administrators use the kill command to stop unresponsive applications, terminate unwanted processes, and manage running services.
+syntax: kill -9 <pid>
+here,
+-9 means Forcefully terminate process
+pid means process ID
+
