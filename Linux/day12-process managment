@@ -32,7 +32,7 @@ syntax: ps
 ii] ps -ef
 --> Shows all processes in full format
 
-iii] ps aux
+iii] ps -aux
 --> Shows detailed information about all processes
 
 top command:
@@ -47,4 +47,36 @@ syntax: kill -9 <pid>
 here,
 -9 means Forcefully terminate process
 pid means process ID
+
+3. Daemon process:
+--> A Daemon Process is a backround process used to perform system task indenpendantly.
+
+**Process State:
+1. Running (R) :
+2. Sleeping (S)
+3. Stopped (T)
+4. Zombie (Z):
+--> A zombie process is a process that has completed execution, but its parent process has not yet collected its exit status.
+--> A zombie is not actively executing and does not consume resources(CPU)
+--> It does remain a process table entry.
+
+**Parent and Child Process:
+--> one process may create another process
+--> the process that creates another process is called the parent process.
+--> the newly created process is called the child process.
+syntax: pstree
+
+
+**process priority:
+
+nice and renice
+
+-20: highest priority 
+20: lowest priority
+
+negative nice value: highest priority
+positive nice value: lowest priority
+
+sleeo 100 = 1
+slepp 60 = -15
 

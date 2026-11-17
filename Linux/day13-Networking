@@ -1,0 +1,44 @@
+                        Networking
+
+--> A network is a group of two or more devices connected together
+to communicate and share resources.
+
+**Types of Network:
+1. LAN : (Local Area Network)
+2. MAN : (Metropolitan Area Network)
+3. WAN : (Wide Area Network)
+
+**Protocol:
+--> A protocol is a set of rules that devices follow to communicate with each other iver a network.
+eg: HTTP, HTTPS, FTP, TCP, UDP, SSH etc
+
+**Network devices:
+1. router
+2. switch
+3. gateway
+4. firewall
+5. modem
+6. NIC
+
+                         **Linux Networking Commands**
+
+1. ping command:
+--> Ping command is a linux networking command used to check whether another device is reachable over a network.
+syntax: ping <destination>
+eg: ping google.com
+
+2. ifconfig:
+--> It displays network intefaces along with their IP addresses.
+syntax: ifconfig
+ip addr show
+ip address show
+ip addr
+ip a
+
+3. hostname:
+--> to display machine name
+syntax: hostname
+
+
+
+
