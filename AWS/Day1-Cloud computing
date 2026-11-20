@@ -1,0 +1,29 @@
+                            Cloud Computing
+
+--> Cloud computing is the on demand delivery of compute, security, database , networking and other IT resources through cloud provider via Internet.
+
+**Services in Cloud:
+1. IaaS : Infrastructure as a Service
+2. PaaS : Platform as a Service
+3. SaaS : Software as a Service
+
+**Deployment models / types of cloud:
+1. Public Cloud
+2. Private Cloud:
+3. Hybrid Cloud
+
+**Virtualization:
+**Hypervisor
+
+                            AWS
+                    Amazon Web Service
+
+--> AWS stands for Amazon Web Service. It is a cloud computing platform that offers IT resources and services over the Internet 
+
+**Region and Availability Zone(AZ):
+-->A region is a seperate geographical area around the word where AWS has its data center.
+eg: ap-south-1, us-east-2 etc
+
+--> An AZ is one or more physicallly seperated data centers  within an AWS region.
+--> each region contains multiple AZs.
+--> each AZ has independant infrastructure, power and networking

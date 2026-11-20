@@ -1,0 +1,18 @@
+                                 EC2
+                        Elastic Compute cloud
+
+-->it allow us to create and use virtual servers in the cloud.
+-->Virtual server --> virtual machine --> VM --> server -->instance --> node
+
+-->Steps to create instance:
+1. Tags:
+2. AMI : Amazon Machine Image
+--> an AMI contains the operating system, application server, and applications for your instance. 
+3. Instnace type : CPU + RAM
+4. Firewall : Security group
+--> A security group is a set of firewall rules that control the traffic for your instance. 
+5. Storage: HDD and SSD
+6. key pair:
+--> You can use a key pair to securely connect to your instance
+1. public key : kept with AWS
+2. private key : downloaded by user
