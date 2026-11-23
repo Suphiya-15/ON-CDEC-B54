@@ -16,3 +16,34 @@
 --> You can use a key pair to securely connect to your instance
 1. public key : kept with AWS
 2. private key : downloaded by user
+
+HW --> Launch ubuntu Instance 
+
+                 **Security Group**
+
+Security Group:
+1. Inbound Rule : Incoming Traffic
+2. Outbound Rule : Outbound Traffic
+
+SSH Protocol: (Secure SHell)
+--> SSH protocol is used to connect linux instance remotely.
+--> SSH works on port no 22
+
+RDP Protocol: (Remote Desktop Protocol)
+--> RDP protocol is used to connect windows instance remotely.
+--> RDP works on port no 3389
+
+**Steps to connect windows instance:
+1. Create windows instance 
+2. conect
+3. go to RDP
+4. download RDP desktop file
+5. Get windows password
+6. upload private key
+7. decrypt password
+8. copy password and paste it on downloaded desktop file you
+9. click on ok
+10. click on yes
+11. done
+
+
