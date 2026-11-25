@@ -1,0 +1,24 @@
+               System Monitoring Tools
+
+1. df -h : check disk usage
+--> Displays disk space usage of mounted filesystem.
+--> -h means human readable (MB,GB)
+--> Checking the entire hard disk
+--> df -h vs du -sh
+
+2. free -h :
+--> Shows RAM memory usage
+
+3. uptime:
+-->  displays how long the system has been running since its last boot.
+
+4. lscpu:
+--> shows CPU hardware information
+
+5. cat /etc/os-release
+--> Displaysnthe linux distribution name, version and other OS details.
+
+6. whoami :
+--> displays the username of the user currently executing the command.
+ 
+              

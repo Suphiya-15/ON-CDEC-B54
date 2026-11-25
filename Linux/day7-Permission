@@ -108,3 +108,30 @@ chmod 000 demo
 
 
 
+                      **Umask**
+
+-->umask stands for User File Creation Mode Mask
+--> umask control default permission of newly created file and directory.
+
+--> Default file permission: 644
+--> Default dir permission: 755
+
+--> before applying umask
+--> file : 666
+--> dir: 777
+
+--> umask : 022
+--> the umask value removes permissions from the default permission.
+
+
+--> final permission= default permission - umask value
+file = 666-022 = 644
+dir = 777-022 = 755
+
+--> umask = 077
+files: 600
+dir : 700
+
+--> umask = 002
+--> file = 664
+--> dir = 775 

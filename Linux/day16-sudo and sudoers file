@@ -1,0 +1,10 @@
+
+--> The sudoers file is a linux configuration file that defines which users 
+or groups can execute commands using sudo and which command they are allowed to execute.
+--> it controls:
+1. who can use sudo
+2. which commands a user can execute
+3. whether a user has full admin access
+--> the main sudoers file is located at /etc/sudoers.
+ 
+ 
