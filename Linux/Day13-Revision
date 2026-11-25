@@ -1,0 +1,56 @@
+1. What is Linux?
+2. What is Linux Kernel?
+3. What is shell in linux?
+4. what is the purpose of the grep command?
+5. what is the purpose of top command?
+6. what is mean by process?
+7. what is an inode?
+8. difference between hard link and soft link?
+9. what is crontab?
+10. what is the purpose /etc/passwd file?
+11. /etc/shadow
+12. what is daemon process?
+
+13. how do you check the network configuration in linux?
+14. how do you kill a process in linux?
+15. how do you check the system's IP address in linux?
+16. how do you compress and decompress files in linux?
+17. how to get logs of 7 days and delete them in a single command?
+18. ps -aux vs top command
+19. what does ls -ltr do?
+20. cd vs pwd
+21. how to find files larger than 10MB?
+22. how to find files modified in the last 24 hours?
+--> find / -mtime -1
+
+23. how to identify the process consuming the most CPU?
+24. how to identify the process consuming the most memory?
+25. how do you check folder size?
+
+26. sudo -i command
+27. ls
+28. rw-r-x-wx
+29.  mkdir -p grandparent/parent/child
+30. rm -rf 
+31. "dd" do
+32. adduser / useradd
+33. rw-r-x-wx : 653
+34. /etc/group 
+35. /etc/shells
+36. 755
+37. rwxr-xr--
+38. -z , -j , -J 
+
+Package manager:
+
+--> A package manager is a software tool in linux that helps us install, update, remove and manage software packages.
+--> packages is a collection of files required to install and run softwares.
+--> types of package managers:
+1. yum/dnf : RHEL/Fedora/Amazon linux
+--> yum install httpd
+
+2. apt : Debian/ubuntu
+--> apt install apache2
+
+3. brew : MAC OS
+4. Zypper : open SUSE
