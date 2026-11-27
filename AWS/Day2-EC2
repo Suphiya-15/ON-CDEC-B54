@@ -46,4 +46,101 @@ RDP Protocol: (Remote Desktop Protocol)
 10. click on yes
 11. done
 
+**Web server:
+--> A web server is simply a computer which store web pages.
+--> A web server is a computer on which web server software runs.
+eg: appache server, nginx, Microsoft IIS etc
+
+HTTP: Hypertext Transfer Protocol
+--> It is a communication protocol used to transfer data between a client and a web server.
+--> HTTP uses port no 80
+
+HTTPS: Secure
+--> HTTPS is HTTP communication protected using encryption.
+--> It helps protect data exchanged between the browser and the web server.
+--> HTTPS uses port no 443.
+
+yum : Yellowdog Updater, Modified
+
+Demo3 : Host website using EC2 instance
+1. create linux instance
+2. connect
+sudo su -
+yum install nginx -y
+systemctl status nginx
+systemctl start nginx
+echo "<h1>This is my sample website</h1>" >/usr/share/nginx/html/index.html
+3. use public ip of instance and check result 
+
+HW:
+
+1. Apache webserver:
+yum install httpd -y 
+echo "comment" >/var/www/html/index.html
+
+2. index.html???
+
+
+**Status check:
+-->EC2 status checks are automatic health checks performed by AWS
+1. System status check
+--> Checls the underlying AWS infra 
+-----> physical host,network
+
+2. Instance status check
+--> checks whether the 
+os and instance itself are reachable and functioning
+----> OS failure, kernel issue
+
+3. EBS status check
+
+
+**AWS Instance Pricing Options:**
+1. Ondemand Instance:
+--> Pay for what you use:
+----> Linux or Windows: billing per second, 70 sec -> 1 min 10 sec 
+----> All other OS : billing per hour
+--> has the highest cost but no upfront payment
+--> no long term commitment
+--> Recommended for short term workload.
+
+2. Reserved Instance:
+--> up to 72% discount compared to ondemand instance
+--> Reservation period: 1 year or 3 years 
+--> Payment options: No upfront, partial upfront, full upfront
+
+3. Spot instance:
+--> upto 90% discount compared to on demand
+--> unused capacity
+--> the MOST cost efficient instance in AWS
+--> Not suitable for critical jobs or database
+--> suitable for testing, batch processing, data analysis 
+
+4. Dedicated Host:
+--> A physical server with EC2 instance capacity fully dedicated to your use.
+--> the Most expensive option
+
+5. EC2 saving plans:
+--> 72% discount
+--> commit to a certain type of usage ( $10/hour for 1 year or 3 years)
+
+6. Capacity Reservation:
+--> reserve on demand instance capacity in a specific AZ for any duration
+--> you always have access to EC2 capacity when you need it.
+--> no time commitment, no billing discount
+--> you are charged at on demand rate whether you run instance or Not
+
+**Instance Type Family:**
+1. General Purpose
+2. Compute optimized
+3. Memory optimized
+4. Storage optimized
+5. Accelarated Comuting
+6. HPC
+
+
+
+
+
+
 
